@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="naver-site-verification" content="aa7d889a39635801e35fb1ddca5ad73e39f71e8a" />
     <script data-ad-client="ca-pub-3709454230886543" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -197,7 +198,7 @@
                         resultCeleb = "相像的明星: 吴亦凡(Kris), 白宇在, 张艺兴"
                         break;
                     default:
-                        resultTitle = "알수없음"
+                        resultTitle = "失败"
                         resultExplain = ""
                         resultCeleb = ""
                 }
@@ -229,7 +230,7 @@
                         resultCeleb = "相像的明星: 李沁"
                         break;
                     default:
-                        resultTitle = "알수없음"
+                        resultTitle = "失败"
                         resultExplain = ""
                         resultCeleb = ""
                 }
@@ -271,7 +272,7 @@
                         labelTitle = "狐狸"
                         break;
                     default:
-                        labelTitle = "알수없음"
+                        labelTitle = "失败"
                 }
                 var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
                 var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
